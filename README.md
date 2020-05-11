@@ -21,7 +21,7 @@ than Node.js itself.
 The use-case behind this approach is to be able to use Django's ORM while being
 able to use SSR to boost performance on web browsers.
 
-## The approach
+# The approach
 
 A first version of this used a naive "transitive node process" approach where the 
 node executable was launched with the frontend script for every request. This worked
